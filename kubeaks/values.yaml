@@ -5,13 +5,12 @@
 replicaCount: 4
 
 image:
-  repository: vishnuaks.azurecr.io/nooboys/bikehelm
+  repository: myacrrepo531.azurecr.io/akannan1087/docker-spring-boot
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
-imagePullSecrets: 
-  name: myacrkey
+imagePullSecrets: []
 
 nameOverride: ""
 fullnameOverride: ""
